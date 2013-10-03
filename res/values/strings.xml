@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VN3</string>
+    <string name="title_section3">Sect</string>
+    <string name="title_section2">Sect2</string>
+    <string name="title_section1">Sect3</string>
+    <string name="title_section4">Sect4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nearby">Nearby</string>
+    <string name="radius">Radius</string>
+    <string name="duration">Time</string>
+    <string name="time">Time</string>
+    <string name="cause">Cause</string>
+    <string name="date">Date</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_date">Pick date</string>
+    <string name="no_filter">No filter</string>
+    <string name="filter">Filter</string>
+    
+    
+
+</resources>

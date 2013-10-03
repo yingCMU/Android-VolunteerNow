@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light"
+    android:padding="10dp">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+            
+     <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cause"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Spinner
+	    android:id="@+id/puto_spinner"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+    
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical">
+    
+     <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+     <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_marginRight="10dp"/>
+    
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        
+        
+         />
+    
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp" >
+    
+        <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/radius" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ToggleButton
+            android:id="@+id/radius1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:layout_weight="1"
+            android:textOn="5m"
+            android:textOff="5m" />
+
+        <ToggleButton
+            android:id="@+id/radius2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:layout_weight="1"
+            android:textOn="20m"
+            android:textOff="20m"/>
+
+        <ToggleButton
+            android:id="@+id/radius3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" 
+            android:layout_weight="1"
+            android:textOn="50m"
+            android:textOff="50m"/>
+
+    </LinearLayout>
+
+     
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp" >
+
+         <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/duration"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+        <ToggleButton
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" 
+            android:layout_weight="1"
+            android:textOn="1h"
+            android:textOff="1h"/>
+
+        <ToggleButton
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:layout_weight="1"
+            android:textOn="3h"
+            android:textOff="3h" />
+
+        <ToggleButton
+            android:id="@+id/time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton"
+            android:layout_weight="1"
+            android:textOn="5h"
+            android:textOff="5h" />
+
+       
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/actionbar_background_dark"
+         android:layout_marginTop="8dp"
+         />
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnNoFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_filter" 
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
